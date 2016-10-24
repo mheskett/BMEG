@@ -4,8 +4,7 @@ top 5000 most variable genes.
 
 Michael Heskett, Oregon Health and Science University
 
-INPUT: CCLE formatted gene expression table. Features x Samples.
-Cell line names are in a "Description" column.
+INPUT: CCLE_Expression_Entrez_2012-09-29.gct after you fix awful formatting.
 
 OUTPUT: Text file with KMeans clustered labels for each cell line.
 """
